@@ -1,0 +1,156 @@
+nav {
+    display: flex;
+    gap: 40vw;
+    justify-content: center;
+}
+
+.navright {
+    display: flex;
+    gap: 4vw;
+}
+
+.navright button {
+    border-radius: 23vw;
+    width: 9vw;
+    background-color: black;
+    color: white;
+}
+
+.mid {
+    display: flexbox;
+    justify-content: center;
+    gap: 40vw;
+    position: absolute;
+}
+
+.buttons {
+    display: flex;
+    gap: 9px;
+}
+
+.buttons button {
+    height: 8vh;
+    width: 11vw;
+    border-radius: 1vw;
+}
+
+.numbers {
+    display: flex;
+    gap: 3vw;
+}
+
+.mid1 {
+    position: relative;
+    left: 12vw;
+}
+
+.mid-left {
+    text-align: justify;
+    position: relative;
+    left: 1vw;
+}
+
+.mid-right1 {
+    display: flex;
+    gap: 3vw;
+}
+
+.mid-right {
+    position: relative;
+    left: 45vw;
+    bottom: 23vw;
+    display: flex;
+}
+
+.mid-right img {
+    height: 130px;
+    width: 130px;
+    border-radius: 1vw;
+    position: relative;
+}
+
+/* Problem */
+@media screen and (max-width: 800px) {
+    .problem {
+        position: absolute;
+        left: 23vw;
+        display: flex;
+        gap: 5vw;
+    }
+}
+
+.problem {
+    display: flex;
+    width: 99vw;
+    position: absolute;
+    justify-content: center;
+    gap: 24vw;
+}
+
+.problem-right {
+    position: relative;
+    right: 90px;
+    top: 5vw;
+}
+
+/* Work */
+/* .works {
+    position: absolute;
+    background-color: red;
+    width: 99vw;
+    justify-content: center;
+    display: flexbox;
+    align-items: center;
+    text-align: justify;
+} */
+.works {
+    background-color: red;
+    display: flexbox;
+    width: 80vw;
+    position: absolute;
+    justify-content: center;
+    gap: 24vw;
+    left: 12vw;
+    height: 80vh;
+}
+
+.works-left {
+    position: relative;
+    text-align: justify;
+}
+
+@media screen and (max-width: 390px) {
+    .works-left h4 {
+        position: relative;
+        left: 45px;
+    }
+}
+
+.card-group {
+    display: flex;
+    gap: 7vw;
+}
+
+.kl {
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    background-color: rgba(3, 3, 32, 0.932);
+    height: 34vh;
+    color: white;
+
+}
+
+.footer hr {
+    background-color: red;
+
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 26vw;
+}
